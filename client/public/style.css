@@ -1,0 +1,80 @@
+
+.card{
+    width: 200px !important;
+    overflow-wrap: break-word;
+}
+
+.ui.card.red{
+    background-color: darkred;
+}
+.ui.card.green{
+    background-color: darkgreen;
+}
+.ui.card.teal{
+    background-color: teal;
+}
+
+.card.image {
+    width: 200px;
+    height: 200px;
+}
+.card.image.icon{
+    text-align:center;
+    line-height:200px;
+    font-size: 60px;
+}
+.card.image.icon.teal{
+    background-color: teal;
+}
+
+.card.image.icon.red{
+    background-color: darkred;
+}
+
+.card.image.icon.green{
+    background-color: darkgreen;
+}
+
+.bodygrid {
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: max-content max-content;
+}
+
+.cardsgrid {
+    display: grid;
+    justify-items: normal;
+    align-items: stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 1em;
+}
+
+.votesgrid {
+    display: grid;
+    justify-items: normal;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 1em;
+}
+
+.header.border {
+    background-color: gray;
+    height: 1em;
+    text-align: center;
+    vertical-align: bottom;
+    font: 50px Arial;
+}
+
+.cardicon {
+    justify-content: center;
+    text-align: center;
+    background: lightgray;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    outline: 5px solid darkgray;
+    font: 36px Arial;
+}
